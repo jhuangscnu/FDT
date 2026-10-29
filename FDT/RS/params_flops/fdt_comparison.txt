@@ -1,0 +1,6 @@
+
+fdt params: 11.108136M, flops: 0.87330816G
+mvcnn_ori params: 349.707752M, flops: 137.080602624G
+mvcnn_imp params: 21.282176M, flops: 16.725382656G
+mvt_ori params: 21.960808M, flops: 6.533908992G
+mvt_imp params: 50.924392M, flops: 6.533908992G

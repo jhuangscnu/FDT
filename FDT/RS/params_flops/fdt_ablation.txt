@@ -1,0 +1,6 @@
+
+fdt_wo_pe params: 8.451624M, flops: 0.62337024G
+fdt_wo_mp params: 10.369704M, flops: 0.79958016G
+fdt_wo_lf params: 9.6906M, flops: 0.850277376G
+fdt_wo_dr params: 11.108136M, flops: 1.589625344G
+fdt_wo_ba params: 11.108136M, flops: 0.87330816G

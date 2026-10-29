@@ -1,0 +1,21 @@
+bob bio hist -e fdt_mffv_tex_bal_dev_scores.csv fdt_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_mffv_tex_nom_dev_scores.csv fdt_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvcnn_ori_mffv_lgpu_tex_bal_dev_scores.csv mvcnn_ori_mffv_lgpu_tex_bal_test_scores.csv -o 'hist_bal_mvcnn_ori.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvcnn_ori_mffv_lgpu_tex_nom_dev_scores.csv mvcnn_ori_mffv_lgpu_tex_nom_test_scores.csv -o 'hist_nom_mvcnn_ori.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvcnn_imp_mffv_tex_bal_dev_scores.csv mvcnn_imp_mffv_tex_bal_test_scores.csv -o 'hist_bal_mvcnn_imp.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvcnn_imp_mffv_tex_nom_dev_scores.csv mvcnn_imp_mffv_tex_nom_test_scores.csv -o 'hist_nom_mvcnn_imp.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvt_ori_mffv_tex_bal_dev_scores.csv mvt_ori_mffv_tex_bal_test_scores.csv -o 'hist_bal_mvt_ori.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvt_ori_mffv_tex_nom_dev_scores.csv mvt_ori_mffv_tex_nom_test_scores.csv -o 'hist_nom_mvt_ori.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvt_imp_mffv_tex_bal_dev_scores.csv mvt_imp_mffv_tex_bal_test_scores.csv -o 'hist_bal_mvt_imp.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e mvt_imp_mffv_tex_nom_dev_scores.csv mvt_imp_mffv_tex_nom_test_scores.csv -o 'hist_nom_mvt_imp.pdf' -ts dev,test --figsize 5.5,3
+
+bob bio hist -e fdt_wo_pe_mffv_tex_bal_dev_scores.csv fdt_wo_pe_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt_wo_pe.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_pe_mffv_tex_nom_dev_scores.csv fdt_wo_pe_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt_wo_pe.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_dr_mffv_tex_bal_dev_scores.csv fdt_wo_dr_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt_wo_dr.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_dr_mffv_tex_nom_dev_scores.csv fdt_wo_dr_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt_wo_dr.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_lf_mffv_tex_bal_dev_scores.csv fdt_wo_lf_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt_wo_lf.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_lf_mffv_tex_nom_dev_scores.csv fdt_wo_lf_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt_wo_lf.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_ba_mffv_tex_bal_dev_scores.csv fdt_wo_ba_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt_wo_ba.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_ba_mffv_tex_nom_dev_scores.csv fdt_wo_ba_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt_wo_ba.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_mp_mffv_tex_bal_dev_scores.csv fdt_wo_mp_mffv_tex_bal_test_scores.csv -o 'hist_bal_fdt_wo_mp.pdf' -ts dev,test --figsize 5.5,3
+bob bio hist -e fdt_wo_mp_mffv_tex_nom_dev_scores.csv fdt_wo_mp_mffv_tex_nom_test_scores.csv -o 'hist_nom_fdt_wo_mp.pdf' -ts dev,test --figsize 5.5,3
